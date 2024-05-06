@@ -300,6 +300,7 @@ body{
 }
 #become  input{
     background-color: #E9E9E9;
+    margin-bottom: 20px !important;
 }
 .secuntit{
     font-family: 'inter';
