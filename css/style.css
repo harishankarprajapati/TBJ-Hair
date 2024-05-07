@@ -539,22 +539,16 @@ button.btn.btn-default {
 .product-content{
     padding: 2rem 1rem;
 }
+.proimg2{
+    width: 100%;
+}
 .product-title{
     font-size: 35px;
     text-transform: capitalize;
     font-weight: 700;
     color: #000;
-    margin: 1rem 0;
 }
-.product-title::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 4px;
-    width: 80px;
-    background: #12263a;
-}
+
 .product-link{
     text-decoration: none;
     text-transform: uppercase;
@@ -585,6 +579,7 @@ button.btn.btn-default {
 .product-price span{
     font-weight: 400;
 }
+
 .last-price span{
     color: #909090;
     text-decoration: line-through;
@@ -600,6 +595,7 @@ button.btn.btn-default {
     color: #000;
     font-size: 18px;
     font-weight: 500;
+    padding-top: 30px;
 }
 .prod-color-img{
     display: flex;
@@ -630,14 +626,73 @@ button.btn.btn-default {
     background-color: #AC8F47;
     color: #fff;
 }
-
-
+.secaddtocard{
+    border: 1px solid #000;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.secaddtocard:hover{
+    background-color: #AC8F47;
+    color: #fff;
+    border: 1px solid #000;
+}
+.secaddtocard2{
+    border: 1px solid #000;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 0;
+    background-color: #AC8F47;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 0;
+    width: 100%;
+}
+.secaddtocard2:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000;
+}
+.Quantitysec{
+    border-radius: 0;
+    width: 50%;
+    border: 1px solid #000;
+}
+.sectextinc{
+    font-size: 15px;
+    color: #909090;
+}
+.accordion-button{
+    color: #000 !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    background: transparent !important;
+}
+.accordion-collapse {
+    border: 1px solid #ffffff !important;
+}
+.secrel h3{
+text-align: center;
+font-size: 35px;
+color: #191710;
+font-weight: 600;
+}
+.secrel p{
+text-align: center;
+font-size: 20px;
+color: #000;
+}
 
 .purchase-info{
     margin: 1.5rem 0;
 }
-.purchase-info input,
-.purchase-info .btn{
+.purchase-info input{
     border: 1.5px solid #ddd;
     border-radius: 25px;
     text-align: center;
@@ -670,6 +725,59 @@ button.btn.btn-default {
     color: #fff;
 }
 
+
+/* about */
+.secaboutbg{
+    background-image: url(../images/aboutbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.secaboutbg h3{
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+   
+}
+.secpadd{
+    padding: 60px 10px;
+}
+.maihesabut h3{
+    font-size: 30px;
+    color: #191710;
+    padding-bottom: 30px;
+}
+.maihesabut p{
+    font-size: 16px;
+    color: #000;
+}
+.sectbjslider{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.secsliderimge2{
+    background-image: url(../images/aboutslider.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 992px){
     .card{
         display: grid;
@@ -685,9 +793,18 @@ button.btn.btn-default {
     .product-imgs{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
     }
     .product-content{
         padding-top: 0;
     }
+}
+@media screen and (max-width: 767px){
+.product-title {
+    font-size: 21px;
+}
+.prod-Length {
+    display: flex;
+    flex-wrap: wrap;
+}
 }
