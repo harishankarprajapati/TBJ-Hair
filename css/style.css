@@ -766,10 +766,50 @@ color: #000;
     border-radius: 10px;
 }
 
+.secboxabout{
+    background-color: #F0F0F0;
+    padding: 20px;
+    border-radius: 20px;
+ margin-bottom: 20px;
+}
+.secboxabout h3{
+font-family: 'inter';
+font-size: 20px;
+color: #000;
+font-weight: 700;
+}
 
-
-
-
+.secboxabout p{
+    font-family: 'inter';
+    font-size: 16px;
+    font-style: italic;
+    color: #000;
+}
+.col-lg-4.secdfbox {
+    display: flex;
+}
+.secOurMission{
+    background-color: #ecb833;
+    background-image: url(../images/ournissonbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    margin-top: 50px;
+}
+.secOur h3{
+    font-family: 'inter';
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.secOur p{
+    font-family: 'inter';
+    font-size: 20px;
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+}
 
 
 
