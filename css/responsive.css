@@ -116,6 +116,7 @@ button.navbar-toggler {
 }
 .spottext {
   font-size: 16px;
+  padding-right: 0px;
 }
 .secsportbg {
   padding-bottom: 30px;
@@ -134,6 +135,10 @@ img.revimg {
 }
 img.revimg2 {
   width: 12% !important;
+}
+.secinsta{
+  padding-top: 30px;
+  width: 70% !important;
 }
 .clientsec {
   font-size: 25px;
