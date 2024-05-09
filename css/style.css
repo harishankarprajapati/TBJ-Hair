@@ -335,6 +335,7 @@ body{
     font-family: 'inter';
     font-size: 14px;
     color: #686868;
+    padding-top: 20px;
 }
 .starimg{
     width: 50% !important;
@@ -385,9 +386,15 @@ body{
     color: #E3DDCE;
     font-size: 20px;
 }
+img.revimg {
+    width: 75% !important;
+}
+img.revimg2 {
+    width: 50% !important;
+}
 .secfootrev2 a{
     color: #E3DDCE;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 }
 .footerhead{
@@ -481,7 +488,12 @@ button.btn.btn-default {
     font-size: 30px;
     color: #000;
     font-weight: 600;
+    padding-bottom: 30px;
 }
+.proimg2:hover {
+    border: 1px solid #000;
+}
+
 .prodcatfitl p a{
     font-size: 18px;
     text-decoration: none;
@@ -758,6 +770,7 @@ color: #000;
 .maihesabut p{
     font-size: 16px;
     color: #000;
+    padding-right: 150px;
 }
 .sectbjslider{
     padding: 10px;
@@ -770,10 +783,13 @@ color: #000;
     padding: 60px 20px;
     border-radius: 10px;
 }
+.prodcatfitl p {
+    padding-bottom: 20px;
+}
 
 .secboxabout{
     background-color: #F0F0F0;
-    padding: 20px;
+    padding: 25px;
     border-radius: 20px;
  margin-bottom: 20px;
 }

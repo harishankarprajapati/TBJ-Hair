@@ -89,7 +89,7 @@ button.navbar-toggler {
   padding: 10px 0px !important;
 }
 .secmibilepadd{
-  padding: 30px 10px !important;
+  padding: 30px 10px 40px 10px !important;
 }
 .aboutlogote {
   font-size: 22px;
@@ -109,7 +109,10 @@ button.navbar-toggler {
   padding: 0px 10px 0px 10px !important;
 }
 .secmibilepadd3{
-  padding: 0px 10px 30px 10px !important;
+  padding: 40px 10px 30px 10px !important;
+}
+.maihesabut p{
+  padding-right: 0px;
 }
 .spottit {
   font-size: 35px;
