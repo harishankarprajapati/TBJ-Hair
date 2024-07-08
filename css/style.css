@@ -900,6 +900,15 @@ padding-left: 0px;
 }
 
 
+.secprvsec h4{
+    padding-top: 20px;
+    color: #000;
+}
+.secprvsec p{
+    padding-bottom: 20px;
+    color: #000;
+}
+
 @media screen and (min-width: 992px){
     .card{
         display: grid;
